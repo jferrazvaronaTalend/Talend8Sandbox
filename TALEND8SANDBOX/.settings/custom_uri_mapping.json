@@ -1,0 +1,3 @@
+{
+  "mvn:com.microsoft.sqlserver/mssql-jdbc/actual/jar" : "mvn:com.microsoft.sqlserver/mssql-jdbc/13.2.0.jre11/jar"
+}

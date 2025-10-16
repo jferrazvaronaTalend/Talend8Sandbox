@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_V5Bp4JSXEfCdMZlKzvILhA" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_V5Bp4ZSXEfCdMZlKzvILhA" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_V5Bp4pSXEfCdMZlKzvILhA" comment="" name="SFTPServer" prompt="SFTPServer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="88.5.6.227" internalId="_aoS-kBCDEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_V5Bp45SXEfCdMZlKzvILhA" comment="" name="SFTPPort" prompt="SFTPPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="22" internalId="_aoS-kRCDEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_V5Bp5JSXEfCdMZlKzvILhA" comment="" name="SFTPUsername" prompt="SFTPUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="jcferraz" internalId="_aoS-khCDEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_V5Bp5ZSXEfCdMZlKzvILhA" comment="" name="SFTPPassword" prompt="SFTPPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:iL7/VqMQkFOXGz1e8GpHFyYKM0iyqdN1EzFkgFfwt/Pfq2xFuMQHHKE=" internalId="_aoS-kxCDEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_V5Bp5pSXEfCdMZlKzvILhA" comment="" name="SFTPPath" prompt="SFTPPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FTP" internalId="_aoS-lBCDEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_V5Bp55SXEfCdMZlKzvILhA" comment="" name="SFTPFilemask" prompt="SFTPFilemask?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=".*.csv" internalId="_yy5r8BCEEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_V5Bp6JSXEfCdMZlKzvILhA" comment="" name="SFTPFileDelete" prompt="SFTPFileDelete?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="true" internalId="_Tf9ikBCGEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_V5Bp6ZSXEfCdMZlKzvILhA" comment="" name="OutputFolder" prompt="OutputFolder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Talend/jcferraz/SFTP" internalId="_Tf9ikRCGEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_V5Bp6pSXEfCdMZlKzvILhA" comment="" name="SFTP" prompt="SFTP?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_nCyEIBCVEfCgyYsYBKbVvQ"/>
+  </context>
+  <parameters xmi:id="_V5Bp65SXEfCdMZlKzvILhA">
+    <elementParameter xmi:id="_V5Bp7JSXEfCdMZlKzvILhA" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_V5Bp7ZSXEfCdMZlKzvILhA" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_V5Bp7pSXEfCdMZlKzvILhA" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_V5Bp75SXEfCdMZlKzvILhA" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp8JSXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp8ZSXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp8pSXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp85SXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp9JSXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp9ZSXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp9pSXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp95SXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp-JSXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp-ZSXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp-pSXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp-5SXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp_JSXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_V5Bp_ZSXEfCdMZlKzvILhA" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+  </parameters>
+  <node xmi:id="_V5Bp_pSXEfCdMZlKzvILhA" componentName="cFtp" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="120">
+    <elementParameter xmi:id="_V5Bp_5SXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cFtp_1" show="false"/>
+    <elementParameter xmi:id="_V5BqAJSXEfCdMZlKzvILhA" field="CLOSED_LIST" name="TYPE" value="sftp"/>
+    <elementParameter xmi:id="_V5BqAZSXEfCdMZlKzvILhA" field="TEXT" name="SERVER" value="context.SFTPServer"/>
+    <elementParameter xmi:id="_V5BqApSXEfCdMZlKzvILhA" field="TEXT" name="PORT" value="context.SFTPPort"/>
+    <elementParameter xmi:id="_V5BqA5SXEfCdMZlKzvILhA" field="TEXT" name="USERNAME" value="context.SFTPUsername"/>
+    <elementParameter xmi:id="_V5BqBJSXEfCdMZlKzvILhA" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:Hi6Cz5EtYwam5IdF65pvqLop78+O7vQ7Rmj8UxmCy8vGYFIo6eoB+1FWyTWQMCx9"/>
+    <elementParameter xmi:id="_V5BqBZSXEfCdMZlKzvILhA" field="TEXT" name="DIRECTORY" value="context.SFTPPath"/>
+    <elementParameter xmi:id="_V5BqBpSXEfCdMZlKzvILhA" field="TABLE" name="ADVARGUMENTS">
+      <elementValue xmi:id="_V5BqB5SXEfCdMZlKzvILhA" elementRef="NAME" value="&quot;include&quot;" id="0"/>
+      <elementValue xmi:id="_V5BqCJSXEfCdMZlKzvILhA" elementRef="VALUE" value="context.SFTPFilemask" id="1"/>
+      <elementValue xmi:id="_V5BqCZSXEfCdMZlKzvILhA" elementRef="NAME" value="&quot;delete&quot;" id="2"/>
+      <elementValue xmi:id="_V5BqCpSXEfCdMZlKzvILhA" elementRef="VALUE" value="context.SFTPFileDelete" id="3"/>
+    </elementParameter>
+    <elementParameter xmi:id="_V5BqC5SXEfCdMZlKzvILhA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_V5BqDJSXEfCdMZlKzvILhA" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_V5BqDZSXEfCdMZlKzvILhA" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="120">
+    <elementParameter xmi:id="_V5BqDpSXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+    <elementParameter xmi:id="_V5BqD5SXEfCdMZlKzvILhA" field="DIRECTORY" name="URI" value="context.OutputFolder"/>
+    <elementParameter xmi:id="_V5BqEJSXEfCdMZlKzvILhA" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_V5BqEZSXEfCdMZlKzvILhA" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_V5BqEpSXEfCdMZlKzvILhA" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_V5BqE5SXEfCdMZlKzvILhA" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_V5BqFJSXEfCdMZlKzvILhA" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_V5BqFZSXEfCdMZlKzvILhA" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_V5BqFpSXEfCdMZlKzvILhA" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_V5BqF5SXEfCdMZlKzvILhA" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_V5BqGJSXEfCdMZlKzvILhA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_V5BqGZSXEfCdMZlKzvILhA" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_V5BqGpSXEfCdMZlKzvILhA" componentName="cMessageRouter" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="120">
+    <elementParameter xmi:id="_V5BqG5SXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cMessageRouter_1" show="false"/>
+    <elementParameter xmi:id="_V5BqHJSXEfCdMZlKzvILhA" field="CLOSED_LIST" name="ROUTE_WHEN_LANGUAGES" value="constant" show="false"/>
+    <elementParameter xmi:id="_V5BqHZSXEfCdMZlKzvILhA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_V5BqHpSXEfCdMZlKzvILhA" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_V5BqH5SXEfCdMZlKzvILhA" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="720" posY="40">
+    <elementParameter xmi:id="_V5BqIJSXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cDirect_1" show="false"/>
+    <elementParameter xmi:id="_V5BqIZSXEfCdMZlKzvILhA" field="CHECK" name="INPUT_ENDPOINT_NAME" value="true"/>
+    <elementParameter xmi:id="_V5BqIpSXEfCdMZlKzvILhA" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_V5BqI5SXEfCdMZlKzvILhA" field="TEXT" name="NAME" value="&quot;direct:r1&quot;"/>
+    <elementParameter xmi:id="_V5BqJJSXEfCdMZlKzvILhA" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_V5BqJZSXEfCdMZlKzvILhA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_V5BqJpSXEfCdMZlKzvILhA" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_V5BqJ5SXEfCdMZlKzvILhA" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="720" posY="200">
+    <elementParameter xmi:id="_V5BqKJSXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
+    <elementParameter xmi:id="_V5BqKZSXEfCdMZlKzvILhA" field="CHECK" name="INPUT_ENDPOINT_NAME" value="true"/>
+    <elementParameter xmi:id="_V5BqKpSXEfCdMZlKzvILhA" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_V5BqK5SXEfCdMZlKzvILhA" field="TEXT" name="NAME" value="&quot;direct:r2&quot;"/>
+    <elementParameter xmi:id="_V5BqLJSXEfCdMZlKzvILhA" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_V5BqLZSXEfCdMZlKzvILhA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_V5BqLpSXEfCdMZlKzvILhA" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <connection xmi:id="_V5BqL5SXEfCdMZlKzvILhA" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cFtp_1" offsetLabelX="0" offsetLabelY="0" source="cFtp_1" target="cFile_1">
+    <elementParameter xmi:id="_V5BqMJSXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <connection xmi:id="_V5BqMZSXEfCdMZlKzvILhA" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cFile_1" offsetLabelX="0" offsetLabelY="0" source="cFile_1" target="cMessageRouter_1">
+    <elementParameter xmi:id="_V5BqMpSXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+  </connection>
+  <connection xmi:id="_V5BqM5SXEfCdMZlKzvILhA" connectorName="ROUTE_WHEN" label="when1" lineStyle="15" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="cMessageRouter_1" target="cDirect_1">
+    <elementParameter xmi:id="_V5BqNJSXEfCdMZlKzvILhA" field="CLOSED_LIST" name="ROUTETYPE" value="constant"/>
+    <elementParameter xmi:id="_V5BqNZSXEfCdMZlKzvILhA" field="MEMO_JAVA" name="CONDITION" value=""/>
+    <elementParameter xmi:id="_V5BqNpSXEfCdMZlKzvILhA" field="CHECK" name="ENDOFCHOICE" value="false"/>
+    <elementParameter xmi:id="_V5BqN5SXEfCdMZlKzvILhA" field="CHECK" name="USE_NAMESPACES" value="false" show="false"/>
+    <elementParameter xmi:id="_V5BqOJSXEfCdMZlKzvILhA" field="TABLE" name="NAMESPACES" show="false"/>
+    <elementParameter xmi:id="_V5BqOZSXEfCdMZlKzvILhA" field="LABEL" name="WARNING" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#xA;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#xA;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." show="false"/>
+    <elementParameter xmi:id="_V5BqOpSXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="when1" show="false"/>
+  </connection>
+  <connection xmi:id="_V5BqO5SXEfCdMZlKzvILhA" connectorName="ROUTE_WHEN" label="when2" lineStyle="15" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="cMessageRouter_1" target="cDirect_2">
+    <elementParameter xmi:id="_V5BqPJSXEfCdMZlKzvILhA" field="CLOSED_LIST" name="ROUTETYPE" value="constant"/>
+    <elementParameter xmi:id="_V5BqPZSXEfCdMZlKzvILhA" field="MEMO_JAVA" name="CONDITION" value=""/>
+    <elementParameter xmi:id="_V5BqPpSXEfCdMZlKzvILhA" field="CHECK" name="ENDOFCHOICE" value="false"/>
+    <elementParameter xmi:id="_V5BqP5SXEfCdMZlKzvILhA" field="CHECK" name="USE_NAMESPACES" value="false" show="false"/>
+    <elementParameter xmi:id="_V5BqQJSXEfCdMZlKzvILhA" field="TABLE" name="NAMESPACES" show="false"/>
+    <elementParameter xmi:id="_V5CQ8JSXEfCdMZlKzvILhA" field="LABEL" name="WARNING" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#xA;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#xA;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." show="false"/>
+    <elementParameter xmi:id="_V5CQ8ZSXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="when2" show="false"/>
+  </connection>
+  <subjob xmi:id="_V5CQ8pSXEfCdMZlKzvILhA">
+    <elementParameter xmi:id="_V5CQ85SXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cFtp_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_V5CQ9JSXEfCdMZlKzvILhA">
+    <elementParameter xmi:id="_V5CQ9ZSXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_V5CQ9pSXEfCdMZlKzvILhA">
+    <elementParameter xmi:id="_V5CQ95SXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cMessageRouter_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_V5CQ-JSXEfCdMZlKzvILhA">
+    <elementParameter xmi:id="_V5CQ-ZSXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cDirect_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_V5CQ-pSXEfCdMZlKzvILhA">
+    <elementParameter xmi:id="_V5CQ-5SXEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
+  </subjob>
+</talendfile:ProcessType>

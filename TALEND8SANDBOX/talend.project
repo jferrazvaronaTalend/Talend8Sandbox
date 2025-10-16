@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_uzLZIZIMEfCyHrPPrYXH7w" label="Talend8Sandbox" language="java" technicalLabel="TALEND8SANDBOX" author="_uzLZIpIMEfCyHrPPrYXH7w" productVersion="Talend Cloud Data Fabric-8.0.1.20250927_1321-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/jferrazvaronaTalend/Talend8Sandbox.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <componentsSettings xmi:id="_6ZZ9gJ7SEfCcnedX-SBDdQ" name="DI|tFileFetch" family="Deprecated"/>
+    <componentsSettings xmi:id="_6ZZ9gZ7SEfCcnedX-SBDdQ" name="DI|tREST" family="Deprecated"/>
+    <componentsSettings xmi:id="_6ZZ9gp7SEfCcnedX-SBDdQ" name="DI|tHttpRequest" family="Deprecated"/>
+    <migrationTask xmi:id="_u0NT4JIMEfCyHrPPrYXH7w" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_uzLZIpIMEfCyHrPPrYXH7w" login="josecarlosferraz1@josecarlosferraz" firstName="Jose Carlos" lastName="Ferraz" type="DQ"/>
+</xmi:XMI>

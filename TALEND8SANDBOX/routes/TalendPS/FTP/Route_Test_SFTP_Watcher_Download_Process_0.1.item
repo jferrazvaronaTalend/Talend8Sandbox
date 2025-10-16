@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_A7RaYJSTEfCdMZlKzvILhA" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_A7RaYZSTEfCdMZlKzvILhA" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_A7RaYpSTEfCdMZlKzvILhA" comment="" name="SFTPServer" prompt="SFTPServer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="88.5.6.227" internalId="_aoS-kBCDEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_A7RaY5STEfCdMZlKzvILhA" comment="" name="SFTPPort" prompt="SFTPPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="22" internalId="_aoS-kRCDEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_A7RaZJSTEfCdMZlKzvILhA" comment="" name="SFTPUsername" prompt="SFTPUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="jcferraz" internalId="_aoS-khCDEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_A7RaZZSTEfCdMZlKzvILhA" comment="" name="SFTPPassword" prompt="SFTPPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:iL7/VqMQkFOXGz1e8GpHFyYKM0iyqdN1EzFkgFfwt/Pfq2xFuMQHHKE=" internalId="_aoS-kxCDEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_A7RaZpSTEfCdMZlKzvILhA" comment="" name="SFTPPath" prompt="SFTPPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FTP" internalId="_aoS-lBCDEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_A7RaZ5STEfCdMZlKzvILhA" comment="" name="SFTPFilemask" prompt="SFTPFilemask?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=".*.csv" internalId="_yy5r8BCEEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_A7RaaJSTEfCdMZlKzvILhA" comment="" name="SFTPFileDelete" prompt="SFTPFileDelete?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="true" internalId="_Tf9ikBCGEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_A7RaaZSTEfCdMZlKzvILhA" comment="" name="OutputFolder" prompt="OutputFolder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Talend/jcferraz/SFTP" internalId="_Tf9ikRCGEfCgyYsYBKbVvQ"/>
+    <contextParameter xmi:id="_A7RaapSTEfCdMZlKzvILhA" comment="" name="SFTP" prompt="SFTP?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_nCyEIBCVEfCgyYsYBKbVvQ"/>
+  </context>
+  <parameters xmi:id="_A7Raa5STEfCdMZlKzvILhA">
+    <elementParameter xmi:id="_A7RabJSTEfCdMZlKzvILhA" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_A7RabZSTEfCdMZlKzvILhA" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_A7RabpSTEfCdMZlKzvILhA" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_A7Rab5STEfCdMZlKzvILhA" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_A7RacJSTEfCdMZlKzvILhA" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_A7RacZSTEfCdMZlKzvILhA" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_A7RacpSTEfCdMZlKzvILhA" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_A7Rac5STEfCdMZlKzvILhA" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_A7RadJSTEfCdMZlKzvILhA" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_A7RadZSTEfCdMZlKzvILhA" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_A7RadpSTEfCdMZlKzvILhA" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_A7Rad5STEfCdMZlKzvILhA" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_A7RaeJSTEfCdMZlKzvILhA" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_A7RaeZSTEfCdMZlKzvILhA" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_A7RaepSTEfCdMZlKzvILhA" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_A7Rae5STEfCdMZlKzvILhA" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_A7RafJSTEfCdMZlKzvILhA" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_A7RafZSTEfCdMZlKzvILhA" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+  </parameters>
+  <node xmi:id="_A7RafpSTEfCdMZlKzvILhA" componentName="cFtp" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="80">
+    <elementParameter xmi:id="_A7Raf5STEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cFtp_1" show="false"/>
+    <elementParameter xmi:id="_A7RagJSTEfCdMZlKzvILhA" field="CLOSED_LIST" name="TYPE" value="sftp"/>
+    <elementParameter xmi:id="_A7RagZSTEfCdMZlKzvILhA" field="TEXT" name="SERVER" value="context.SFTPServer"/>
+    <elementParameter xmi:id="_A7RagpSTEfCdMZlKzvILhA" field="TEXT" name="PORT" value="context.SFTPPort"/>
+    <elementParameter xmi:id="_A7Rag5STEfCdMZlKzvILhA" field="TEXT" name="USERNAME" value="context.SFTPUsername"/>
+    <elementParameter xmi:id="_A7RahJSTEfCdMZlKzvILhA" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:Hi6Cz5EtYwam5IdF65pvqLop78+O7vQ7Rmj8UxmCy8vGYFIo6eoB+1FWyTWQMCx9"/>
+    <elementParameter xmi:id="_A7RahZSTEfCdMZlKzvILhA" field="TEXT" name="DIRECTORY" value="context.SFTPPath"/>
+    <elementParameter xmi:id="_A7RahpSTEfCdMZlKzvILhA" field="TABLE" name="ADVARGUMENTS">
+      <elementValue xmi:id="_A7Rah5STEfCdMZlKzvILhA" elementRef="NAME" value="&quot;include&quot;" id="0"/>
+      <elementValue xmi:id="_A7RaiJSTEfCdMZlKzvILhA" elementRef="VALUE" value="context.SFTPFilemask" id="1"/>
+      <elementValue xmi:id="_A7RaiZSTEfCdMZlKzvILhA" elementRef="NAME" value="&quot;delete&quot;" id="2"/>
+      <elementValue xmi:id="_A7RaipSTEfCdMZlKzvILhA" elementRef="VALUE" value="context.SFTPFileDelete" id="3"/>
+    </elementParameter>
+    <elementParameter xmi:id="_A7Rai5STEfCdMZlKzvILhA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_A7RajJSTEfCdMZlKzvILhA" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_A7RajZSTEfCdMZlKzvILhA" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="80">
+    <elementParameter xmi:id="_A7RajpSTEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+    <elementParameter xmi:id="_A7Raj5STEfCdMZlKzvILhA" field="DIRECTORY" name="URI" value="context.OutputFolder"/>
+    <elementParameter xmi:id="_A7RakJSTEfCdMZlKzvILhA" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_A7RakZSTEfCdMZlKzvILhA" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_A7RakpSTEfCdMZlKzvILhA" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_A7Rak5STEfCdMZlKzvILhA" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_A7RalJSTEfCdMZlKzvILhA" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_A7RalZSTEfCdMZlKzvILhA" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_A7RalpSTEfCdMZlKzvILhA" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_A7Ral5STEfCdMZlKzvILhA" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_A7RamJSTEfCdMZlKzvILhA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_A7RamZSTEfCdMZlKzvILhA" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_A7RampSTEfCdMZlKzvILhA" componentName="cTalendJob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="80">
+    <elementParameter xmi:id="_A7Ram5STEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cTalendJob_1" show="false"/>
+    <elementParameter xmi:id="_A7RanJSTEfCdMZlKzvILhA" field="RADIO" name="FROM_REPOSITORY_JOB" value="true"/>
+    <elementParameter xmi:id="_A7RanZSTEfCdMZlKzvILhA" field="RADIO" name="FROM_EXTERNAL_JAR" value="false"/>
+    <elementParameter xmi:id="_A7RanpSTEfCdMZlKzvILhA" field="RADIO" name="USE_SELECTED_CONTEXT" value="false"/>
+    <elementParameter xmi:id="_A7Ran5STEfCdMZlKzvILhA" field="RADIO" name="USE_ROUTE_CONTEXT" value="true"/>
+    <elementParameter xmi:id="_A7RaoJSTEfCdMZlKzvILhA" field="RADIO" name="USE_JOB_CONTEXT" value="false"/>
+    <elementParameter xmi:id="_A7RaoZSTEfCdMZlKzvILhA" field="ROUTE_INPUT_PROCESS_TYPE" name="SELECTED_JOB_NAME" value="Job_Test_SFTP_Watcher_Process"/>
+    <elementParameter xmi:id="_A7RaopSTEfCdMZlKzvILhA" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter xmi:id="_A7Rao5STEfCdMZlKzvILhA" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_PROCESS" value="_CRkwsBCWEfCgyYsYBKbVvQ"/>
+    <elementParameter xmi:id="_A7RapJSTEfCdMZlKzvILhA" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_VERSION" value="0.1"/>
+    <elementParameter xmi:id="_A7RapZSTEfCdMZlKzvILhA" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_A7RappSTEfCdMZlKzvILhA" field="TEXT" name="JOB" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_A7Rap5STEfCdMZlKzvILhA" field="TEXT" name="CONTEXT" value="&quot;Default&quot;" show="false"/>
+    <elementParameter xmi:id="_A7RaqJSTEfCdMZlKzvILhA" field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter xmi:id="_A7RaqZSTEfCdMZlKzvILhA" field="TABLE" name="EXTERNAL_JAR_CONTEXTPARAMS" show="false"/>
+    <elementParameter xmi:id="_A7RaqpSTEfCdMZlKzvILhA" field="CHECK" name="PROPAGATE_HEADER" value="true"/>
+    <elementParameter xmi:id="_A7Raq5STEfCdMZlKzvILhA" field="CHECK" name="STICKY_JOB" value="false"/>
+    <elementParameter xmi:id="_A7RarJSTEfCdMZlKzvILhA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_A7RarZSTEfCdMZlKzvILhA" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_A7RarpSTEfCdMZlKzvILhA" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="560" posY="80">
+    <elementParameter xmi:id="_A7Rar5STEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_A7RasJSTEfCdMZlKzvILhA" field="MEMO_EDITOR_JAVA" name="CODE" value="java.util.Map&lt;String, Object> headers = exchange.getIn().getHeaders();&#xA;&#xA;/*&#xA;for (Map.Entry&lt;String, Object> entry : headers.entrySet()) {&#xA;    System.out.println(entry.getKey() + &quot;=&quot; + entry.getValue().toString());&#xA;}&#xA;*/&#xA;System.out.println(headers.get(&quot;CamelFileNameProduced&quot;).toString());&#xA;exchange.getOut().setHeader(&quot;downloadedFile&quot;, headers.get(&quot;CamelFileNameProduced&quot;).toString());"/>
+    <elementParameter xmi:id="_A7RasZSTEfCdMZlKzvILhA" field="MEMO_EDITOR_IMPORT" name="IMPORT" value="import java.util.Map;"/>
+    <elementParameter xmi:id="_A7RaspSTEfCdMZlKzvILhA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_A7Ras5STEfCdMZlKzvILhA" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <connection xmi:id="_A7RatJSTEfCdMZlKzvILhA" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cFtp_1" offsetLabelX="0" offsetLabelY="0" source="cFtp_1" target="cFile_1">
+    <elementParameter xmi:id="_A7RatZSTEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <connection xmi:id="_A7RatpSTEfCdMZlKzvILhA" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cFile_1" offsetLabelX="0" offsetLabelY="0" source="cFile_1" target="cProcessor_1">
+    <elementParameter xmi:id="_A7Rat5STEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+  </connection>
+  <connection xmi:id="_A7RauJSTEfCdMZlKzvILhA" connectorName="ROUTE" label="route3" lineStyle="14" metaname="cProcessor_1" offsetLabelX="0" offsetLabelY="0" source="cProcessor_1" target="cTalendJob_1">
+    <elementParameter xmi:id="_A7RauZSTEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
+  </connection>
+  <subjob xmi:id="_A7RaupSTEfCdMZlKzvILhA">
+    <elementParameter xmi:id="_A7Rau5STEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cFtp_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_A7RavJSTEfCdMZlKzvILhA">
+    <elementParameter xmi:id="_A7RavZSTEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_A7RavpSTEfCdMZlKzvILhA">
+    <elementParameter xmi:id="_A7Rav5STEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cTalendJob_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_A7RawJSTEfCdMZlKzvILhA">
+    <elementParameter xmi:id="_A7RawZSTEfCdMZlKzvILhA" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+  </subjob>
+</talendfile:ProcessType>
