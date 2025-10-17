@@ -165,17 +165,9 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_s-g7EEzuEeqKg476cBsgCQ",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
-  }, {
-    "id" : "routine_Encryption",
-    "version" : "Latest",
-    "type" : "routine"
   } ]
 }, {
   "baseItem" : {
